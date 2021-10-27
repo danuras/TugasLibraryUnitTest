@@ -11,13 +11,13 @@ namespace TugasLibraryUnitTest
     [TestFixture]
     class DayTest
     {
-        Day day;
-        String[] nameDay;
+        private Day day;
+        private String[] nameDay;
         [SetUp]
         public void Init()
         {
             day = new Day();
-            nameDay = new string[7] { "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu", "Minggu" };
+            nameDay = new String[7] { "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu", "Minggu" };
         }
         [Test]
         public void NameOfDayTest()

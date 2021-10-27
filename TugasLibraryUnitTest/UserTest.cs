@@ -11,7 +11,7 @@ namespace TugasLibraryUnitTest
     [TestFixture]
     class UserTest
     {
-        User user;
+        private User user;
         [SetUp]
         public void Init()
         {
